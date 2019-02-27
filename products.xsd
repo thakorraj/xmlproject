@@ -1,0 +1,46 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="products">
+    <xs:annotation>
+      <xs:documentation>ITC5202 Project 1</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="product" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="title"/>
+              <xs:element type="xs:float" name="price"/>
+              <xs:element type="xs:date" name="releaseDate"/>
+              <xs:element type="xs:string" name="image"/>
+              <xs:element name="supplier" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="supplierName"/>
+                    <xs:element type="xs:string" name="distributionArea"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="sid" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="summary">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="h3" minOccurs="0"/>
+                    <xs:element name="p" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="i" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="pid" use="optional"/>
+            <xs:attribute type="xs:string" name="type" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

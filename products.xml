@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE products SYSTEM "producs.dtd">
+<products xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="products.xsd"> 
+<!--
+ITC5202 Project 1
+-->
+
+<!--<products>-->
+   <product pid="vg10551" type="PC_Game">
+      <title>Dance Off VII</title>
+      <price>29.95</price>
+      <releaseDate>2017-09-28</releaseDate>
+      <image>vg10551.png</image>
+	  <supplier sid="M1"> 
+        <supplierName>Golden Star</supplierName> 
+        <distributionArea>Toronto</distributionArea>
+	  </supplier>
+      <summary>
+         <h3>Challenge Yourself with Dance</h3>
+
+         <p><i>Dance Off VII</i> is the highly-anticipated sequel in the
+         <i>Dance Off</i> line of dance games, brings even more fun and
+         challenges to your gaming console. Take advantage of your motion-control
+         platform and 50 of the hottest dance tracks to challenge
+         the world - or your best friends - to <i>Dance Off</i>.</p>
+         <p>You wanted the top stars and hit songs and we got 'em for this new release. 
+         But don't think we dropped your old favorites and standards. Every 
+         track from <i>Dance Off III</i> is available and fully compatible with
+         the new release. An added bonus: downloadable tracks from the top
+         songs on the charts, so you can dance off to current hits.</p>
+      </summary>
+   </product>
+   
+   <product pid="vg10552" type="PS4_Game">
+      <title>Net Force 12</title>
+      <price>35.72</price>
+      <releaseDate>2017-10-03</releaseDate>
+      <image>vg10552.png</image>
+	  <supplier sid="P1"> 
+        <supplierName>5 Stars</supplierName> 
+        <distributionArea>Toronto</distributionArea>
+	  </supplier>
+	  <supplier sid="Q1"> 
+        <supplierName>Hero</supplierName> 
+        <distributionArea>Brampton</distributionArea>
+	  </supplier>
+      <summary>
+         <h3>Take the Battle to the Hardwood</h3>
+         <p><i>Net Force 12</i> is the latest release in the Net Force series of basketball 
+         simulation games. Using motion capture technology designed specifically for 
+         <i>Net Force</i>, this release captures the signature moves of the top players in 
+         the NBA, . No other basketball simulation has this lineup of stars. Additional 
+         features include support for motion-sensor game controllers, dynamic shot 
+         generation, touch-sensitive passing, and "flash-to-the-hoop" acceleration 
+         for uncontested slam dunks.</p>
+      </summary>
+   </product>
+   
+<product pid="vg99332" type="PS4_Game">
+      <title>NBA 2k18</title>
+      <price>95.72</price>
+      <releaseDate>2017-10-03</releaseDate>
+      <image>vg99332.png</image>
+	  <supplier sid="M1"> 
+        <supplierName>Goldern Star</supplierName> 
+        <distributionArea>Toronto</distributionArea>
+	  </supplier>
+	  <supplier sid="Z1"> 
+        <supplierName>All Star</supplierName> 
+        <distributionArea>London</distributionArea>
+	  </supplier>
+      <summary>
+         <p>Take your virtual game to a new entertainment level with the dynamic background 
+         music and production by some of the top hip-hop artists on the charts. Previous 
+         releases of <i>Net Force</i> have already won multiple awards for music and 
+         production and this release looks posed to continue that winning streak.</p>
+      </summary>
+   </product>
+   
+   
+</products>
