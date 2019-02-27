@@ -1,0 +1,19 @@
+
+<!ELEMENT products (product+) >
+<!ELEMENT product (title,price,releaseDate,image,supplier+,summary) >
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT releaseDate (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT supplier (supplierName,distributionArea)>
+<!ELEMENT summary (h3?,p+)>
+<!ELEMENT h3 (#PCDATA)>
+<!ELEMENT p (#PCDATA|i)*>
+<!ELEMENT i (#PCDATA)>
+<!ELEMENT supplierName (#PCDATA)>
+<!ELEMENT distributionArea (#PCDATA)>
+<!ATTLIST product type CDATA #REQUIRED>
+<!ATTLIST product pid CDATA #REQUIRED>
+<!--<!ATTLIST supplier type CDATA #REQUIRED>-->
+<!ATTLIST supplier sid CDATA #REQUIRED>
+<!ATTLIST products xsi:noNamespaceSchemaLocation CDATA #REQUIRED xmlns:xsi CDATA #REQUIRED>
